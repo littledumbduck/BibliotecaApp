@@ -15,7 +15,16 @@ element.innerHTML = `<!-- Navegación -->
         </div>
     </nav>
 
-    
+    <main id="app">
+  <section id="contenido-principal">
+    </section>
+  
+  <aside id="sidebar-rss">
+    <h3>Últimas Novedades (RSS)</h3>
+    <div id="contenedor-feed">
+      </div>
+  </aside>
+</main>
 
     <!-- Footer -->
     <footer class="footer">

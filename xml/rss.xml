@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<rss version="2.0">
+  <channel>
+    <title>Novedades de Mi Biblioteca Online</title>
+    <link>https://tu-biblioteca.com</link>
+    <description>Mantente al día con los últimos libros añadidos a nuestro catálogo.</description>
+    <language>es</language>
+
+    <item>
+      <title>Cien años de soledad</title>
+      <link>https://tu-biblioteca.com/libro?id=1</link>
+      <description>La obra maestra de Gabriel García Márquez ya está disponible.</description>
+      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
+      <category>Ficción</category>
+    </item>
+
+    <item>
+      <title>Clean Code</title>
+      <link>https://tu-biblioteca.com/libro?id=4</link>
+      <description>Aprende a escribir código profesional con Robert C. Martin.</description>
+      <pubDate>Sun, 05 Apr 2026 15:30:00 GMT</pubDate>
+      <category>Programación</category>
+    </item>
+    
+    </channel>
+</rss>
