@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <libro id="1">
+    <titulo>Cien años de soledad</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <isbn>978-8420471839</isbn>
+    <categoria>Ficción</categoria>
+    <anio_publicacion>1967</anio_publicacion>
+    <editorial>Sudamericana</editorial>
+    <stock>5</stock>
+    <prestamos>120</prestamos>
+    <descripcion>La historia de la familia Buendía en el pueblo de Macondo.</descripcion>
+  </libro>
+
+  <libro id="2">
+    <titulo>El algoritmo maestro</titulo>
+    <autor>Pedro Domingos</autor>
+    <isbn>978-8411481234</isbn>
+    <categoria>Programación</categoria>
+    <anio_publicacion>2015</anio_publicacion>
+    <editorial>Capitán Swing</editorial>
+    <stock>3</stock>
+    <prestamos>45</prestamos>
+    <descripcion>Cómo la búsqueda de la máquina de aprendizaje definitiva remoldeará nuestro mundo.</descripcion>
+  </libro>
+
+  <libro id="3">
+    <titulo>Sapiens: De animales a dioses</titulo>
+    <autor>Yuval Noah Harari</autor>
+    <isbn>978-8490606155</isbn>
+    <categoria>Historia</categoria>
+    <anio_publicacion>2011</anio_publicacion>
+    <editorial>Debate</editorial>
+    <stock>8</stock>
+    <prestamos>200</prestamos>
+    <descripcion>Una breve historia de la humanidad.</descripcion>
+  </libro>
+
+  <libro id="4">
+    <titulo>Clean Code</titulo>
+    <autor>Robert C. Martin</autor>
+    <isbn>978-0132350884</isbn>
+    <categoria>Programación</categoria>
+    <anio_publicacion>2008</anio_publicacion>
+    <editorial>Prentice Hall</editorial>
+    <stock>2</stock>
+    <prestamos>89</prestamos>
+    <descripcion>Manual de estilo para el desarrollo de software ágil.</descripcion>
+  </libro>
+
+  <libro id="5">
+    <titulo>1984</titulo>
+    <autor>George Orwell</autor>
+    <isbn>978-8466332514</isbn>
+    <categoria>Ficción</categoria>
+    <anio_publicacion>1949</anio_publicacion>
+    <editorial>Debolsillo</editorial>
+    <stock>10</stock>
+    <prestamos>310</prestamos>
+    <descripcion>Novela política de vigilancia gubernamental y control social.</descripcion>
+  </libro>
+
+  <libro id="6"><titulo>El Quijote</titulo><autor>Miguel de Cervantes</autor><isbn>978-8424115470</isbn><categoria>Ficción</categoria><anio_publicacion>1605</anio_publicacion><editorial>Castalia</editorial><stock>4</stock><prestamos>50</prestamos></libro>
+  <libro id="7"><titulo>Crónica de una muerte anunciada</titulo><autor>Gabriel García Márquez</autor><isbn>978-8420471853</isbn><categoria>Ficción</categoria><anio_publicacion>1981</anio_publicacion><editorial>Oveja Negra</editorial><stock>6</stock><prestamos>75</prestamos></libro>
+  <libro id="8"><titulo>Fahrenheit 451</titulo><autor>Ray Bradbury</autor><isbn>978-8401342615</isbn><categoria>Ficción</categoria><anio_publicacion>1953</anio_publicacion><editorial>Ballantine</editorial><stock>3</stock><prestamos>92</prestamos></libro>
+  <libro id="9"><titulo>Un mundo feliz</titulo><autor>Aldous Huxley</autor><isbn>978-8497594257</isbn><categoria>Ficción</categoria><anio_publicacion>1932</anio_publicacion><editorial>Chatto &amp; Windus</editorial><stock>5</stock><prestamos>66</prestamos></libro>
+  <libro id="10"><titulo>La sombra del viento</titulo><autor>Carlos Ruiz Zafón</autor><isbn>978-8408043645</isbn><categoria>Ficción</categoria><anio_publicacion>2001</anio_publicacion><editorial>Planeta</editorial><stock>7</stock><prestamos>150</prestamos></libro>
+  <libro id="11"><titulo>El Hobbit</titulo><autor>J.R.R. Tolkien</autor><isbn>978-8445071410</isbn><categoria>Ficción</categoria><anio_publicacion>1937</anio_publicacion><editorial>George Allen &amp; Unwin</editorial><stock>12</stock><prestamos>210</prestamos></libro>
+  <libro id="12"><titulo>Rayuela</titulo><autor>Julio Cortázar</autor><isbn>978-8430605151</isbn><categoria>Ficción</categoria><anio_publicacion>1963</anio_publicacion><editorial>Alfaguara</editorial><stock>2</stock><prestamos>40</prestamos></libro>
+  <libro id="13"><titulo>Ensayo sobre la ceguera</titulo><autor>José Saramago</autor><isbn>978-8420443218</isbn><categoria>Ficción</categoria><anio_publicacion>1995</anio_publicacion><editorial>Caminho</editorial><stock>4</stock><prestamos>85</prestamos></libro>
+  <libro id="14"><titulo>La casa de los espíritus</titulo><autor>Isabel Allende</autor><isbn>978-8401341168</isbn><categoria>Ficción</categoria><anio_publicacion>1982</anio_publicacion><editorial>Plaza &amp; Janés</editorial><stock>5</stock><prestamos>110</prestamos></libro>
+  <libro id="15"><titulo>Pedro Páramo</titulo><autor>Juan Rulfo</autor><isbn>978-8437604183</isbn><categoria>Ficción</categoria><anio_publicacion>1955</anio_publicacion><editorial>Fondo de Cultura Económica</editorial><stock>3</stock><prestamos>55</prestamos></libro>
+
+  <libro id="16"><titulo>JavaScript: The Good Parts</titulo><autor>Douglas Crockford</autor><isbn>978-0596517748</isbn><categoria>Programación</categoria><anio_publicacion>2008</anio_publicacion><editorial>O'Reilly</editorial><stock>4</stock><prestamos>130</prestamos></libro>
+  <libro id="17"><titulo>The Pragmatic Programmer</titulo><autor>Andrew Hunt</autor><isbn>978-0201616224</isbn><categoria>Programación</categoria><anio_publicacion>1999</anio_publicacion><editorial>Addison-Wesley</editorial><stock>3</stock><prestamos>95</prestamos></libro>
+  <libro id="18"><titulo>Design Patterns</titulo><autor>Erich Gamma</autor><isbn>978-0201633610</isbn><categoria>Programación</categoria><anio_publicacion>1994</anio_publicacion><editorial>Addison-Wesley</editorial><stock>2</stock><prestamos>44</prestamos></libro>
+  <libro id="19"><titulo>Eloquence JavaScript</titulo><autor>Marijn Haverbeke</autor><isbn>978-1593279509</isbn><categoria>Programación</categoria><anio_publicacion>2018</anio_publicacion><editorial>No Starch Press</editorial><stock>6</stock><prestamos>112</prestamos></libro>
+  <libro id="20"><titulo>Introduction to Algorithms</titulo><autor>Thomas H. Cormen</autor><isbn>978-0262033848</isbn><categoria>Programación</categoria><anio_publicacion>2009</anio_publicacion><editorial>MIT Press</editorial><stock>1</stock><prestamos>28</prestamos></libro>
+  <libro id="21"><titulo>Python Crash Course</titulo><autor>Eric Matthes</autor><isbn>978-1593279288</isbn><categoria>Programación</categoria><anio_publicacion>2019</anio_publicacion><editorial>No Starch Press</editorial><stock>10</stock><prestamos>145</prestamos></libro>
+  <libro id="22"><titulo>Cracking the Coding Interview</titulo><autor>Gayle Laakmann McDowell</autor><isbn>978-0984782857</isbn><categoria>Programación</categoria><anio_publicacion>2015</anio_publicacion><editorial>CareerCup</editorial><stock>5</stock><prestamos>210</prestamos></libro>
+  <libro id="23"><titulo>Don't Make Me Think</titulo><autor>Steve Krug</autor><isbn>978-0321965516</isbn><categoria>Programación</categoria><anio_publicacion>2014</anio_publicacion><editorial>New Riders</editorial><stock>4</stock><prestamos>77</prestamos></libro>
+  <libro id="24"><titulo>Refactoring</titulo><autor>Martin Fowler</autor><isbn>978-0134757599</isbn><categoria>Programación</categoria><anio_publicacion>2018</anio_publicacion><editorial>Addison-Wesley</editorial><stock>2</stock><prestamos>32</prestamos></libro>
+  <libro id="25"><titulo>The Mythical Man-Month</titulo><autor>Frederick Brooks</autor><isbn>978-0201835953</isbn><categoria>Programación</categoria><anio_publicacion>1975</anio_publicacion><editorial>Addison-Wesley</editorial><stock>3</stock><prestamos>15</prestamos></libro>
+
+  <libro id="26"><titulo>Guns, Germs, and Steel</titulo><autor>Jared Diamond</autor><isbn>978-0393317558</isbn><categoria>Historia</categoria><anio_publicacion>1997</anio_publicacion><editorial>W.W. Norton</editorial><stock>3</stock><prestamos>55</prestamos></libro>
+  <libro id="27"><titulo>The Silk Roads</titulo><autor>Peter Frankopan</autor><isbn>978-1101912379</isbn><categoria>Historia</categoria><anio_publicacion>2015</anio_publicacion><editorial>Bloomsbury</editorial><stock>4</stock><prestamos>42</prestamos></libro>
+  <libro id="28"><titulo>Postguerra</titulo><autor>Tony Judt</autor><isbn>978-8430606127</isbn><categoria>Historia</categoria><anio_publicacion>2005</anio_publicacion><editorial>Taurus</editorial><stock>2</stock><prestamos>31</prestamos></libro>
+  <libro id="29"><titulo>SPQR: Una historia de la antigua Roma</titulo><autor>Mary Beard</autor><isbn>978-8490608012</isbn><categoria>Historia</categoria><anio_publicacion>2015</anio_publicacion><editorial>Crítica</editorial><stock>6</stock><prestamos>88</prestamos></libro>
+  <libro id="30"><titulo>Civilización</titulo><autor>Niall Ferguson</autor><isbn>978-8499920368</isbn><categoria>Historia</categoria><anio_publicacion>2011</anio_publicacion><editorial>Debate</editorial><stock>4</stock><prestamos>39</prestamos></libro>
+  <libro id="31"><titulo>El mundo de ayer</titulo><autor>Stefan Zweig</autor><isbn>978-8495359490</isbn><categoria>Historia</categoria><anio_publicacion>1942</anio_publicacion><editorial>Acantilado</editorial><stock>5</stock><prestamos>64</prestamos></libro>
+  <libro id="32"><titulo>La II Guerra Mundial</titulo><autor>Antony Beevor</autor><isbn>978-8490064405</isbn><categoria>Historia</categoria><anio_publicacion>2012</anio_publicacion><editorial>Pasado y Presente</editorial><stock>7</stock><prestamos>102</prestamos></libro>
+  <libro id="33"><titulo>Homenaje a Cataluña</titulo><autor>George Orwell</autor><isbn>978-8499890647</isbn><categoria>Historia</categoria><anio_publicacion>1938</anio_publicacion><editorial>Debolsillo</editorial><stock>3</stock><prestamos>47</prestamos></libro>
+  <libro id="34"><titulo>Banderas Negras</titulo><autor>Joby Warrick</autor><isbn>978-8490606414</isbn><categoria>Historia</categoria><anio_publicacion>2015</anio_publicacion><editorial>Debate</editorial><stock>2</stock><prestamos>22</prestamos></libro>
+  <libro id="35"><titulo>Leningrado</titulo><autor>Anna Reid</autor><isbn>978-8499920672</isbn><categoria>Historia</categoria><anio_publicacion>2011</anio_publicacion><editorial>Debate</editorial><stock>3</stock><prestamos>29</prestamos></libro>
+
+  <libro id="36"><titulo>Breve historia del tiempo</titulo><autor>Stephen Hawking</autor><isbn>978-8466332545</isbn><categoria>Ciencia</categoria><anio_publicacion>1988</anio_publicacion><editorial>Bantam</editorial><stock>6</stock><prestamos>240</prestamos></libro>
+  <libro id="37"><titulo>Cosmos</titulo><autor>Carl Sagan</autor><isbn>978-8408053040</isbn><categoria>Ciencia</categoria><anio_publicacion>1980</anio_publicacion><editorial>Random House</editorial><stock>8</stock><prestamos>195</prestamos></libro>
+  <libro id="38"><titulo>El gen egoísta</titulo><autor>Richard Dawkins</autor><isbn>978-8434401235</isbn><categoria>Ciencia</categoria><anio_publicacion>1976</anio_publicacion><editorial>Oxford University Press</editorial><stock>4</stock><prestamos>88</prestamos></libro>
+  <libro id="39"><titulo>La sexta extinción</titulo><autor>Elizabeth Kolbert</autor><isbn>978-8415601814</isbn><categoria>Ciencia</categoria><anio_publicacion>2014</anio_publicacion><editorial>Crítica</editorial><stock>3</stock><prestamos>56</prestamos></libro>
+  <libro id="40"><titulo>Astrophysics for People in a Hurry</titulo><autor>Neil deGrasse Tyson</autor><isbn>978-0393609394</isbn><categoria>Ciencia</categoria><anio_publicacion>2017</anio_publicacion><editorial>W.W. Norton</editorial><stock>10</stock><prestamos>160</prestamos></libro>
+  <libro id="41"><titulo>El emperador de todos los males</titulo><autor>Siddhartha Mukherjee</autor><isbn>978-8430606414</isbn><categoria>Ciencia</categoria><anio_publicacion>2010</anio_publicacion><editorial>Taurus</editorial><stock>2</stock><prestamos>41</prestamos></libro>
+  <libro id="42"><titulo>El origen de las especies</titulo><autor>Charles Darwin</autor><isbn>978-8467031171</isbn><categoria>Ciencia</categoria><anio_publicacion>1859</anio_publicacion><editorial>John Murray</editorial><stock>3</stock><prestamos>34</prestamos></libro>
+  <libro id="43"><titulo>¿Qué es la vida?</titulo><autor>Erwin Schrödinger</autor><isbn>978-8472236074</isbn><categoria>Ciencia</categoria><anio_publicacion>1944</anio_publicacion><editorial>Cambridge Univ. Press</editorial><stock>2</stock><prestamos>25</prestamos></libro>
+  <libro id="44"><titulo>La doble hélice</titulo><autor>James Watson</autor><isbn>978-8420651118</isbn><categoria>Ciencia</categoria><anio_publicacion>1968</anio_publicacion><editorial>Atheneum</editorial><stock>3</stock><prestamos>19</prestamos></libro>
+  <libro id="45"><titulo>El sistema del mundo</titulo><autor>Isaac Newton</autor><isbn>978-8420623252</isbn><categoria>Ciencia</categoria><anio_publicacion>1728</anio_publicacion><editorial>Alianza</editorial><stock>1</stock><prestamos>10</prestamos></libro>
+
+  <libro id="46"><titulo>Así habló Zaratustra</titulo><autor>Friedrich Nietzsche</autor><isbn>978-8420633916</isbn><categoria>Filosofía</categoria><anio_publicacion>1883</anio_publicacion><editorial>Alianza</editorial><stock>4</stock><prestamos>78</prestamos></libro>
+  <libro id="47"><titulo>Meditaciones</titulo><autor>Marco Aurelio</autor><isbn>978-8424937126</isbn><categoria>Filosofía</categoria><anio_publicacion>180</anio_publicacion><editorial>Gredos</editorial><stock>6</stock><prestamos>135</prestamos></libro>
+  <libro id="48"><titulo>La República</titulo><autor>Platón</autor><isbn>978-8424910273</isbn><categoria>Filosofía</categoria><anio_publicacion>-375</anio_publicacion><editorial>Gredos</editorial><stock>5</stock><prestamos>90</prestamos></libro>
+  <libro id="49"><titulo>Ética para Amador</titulo><autor>Fernando Savater</autor><isbn>978-8434409118</isbn><categoria>Filosofía</categoria><anio_publicacion>1991</anio_publicacion><editorial>Ariel</editorial><stock>8</stock><prestamos>205</prestamos></libro>
+  <libro id="50"><titulo>El mito de Sísifo</titulo><autor>Albert Camus</autor><isbn>978-8420636009</isbn><categoria>Filosofía</categoria><anio_publicacion>1942</anio_publicacion><editorial>Alianza</editorial><stock>3</stock><prestamos>120</prestamos></libro>
+</biblioteca>
