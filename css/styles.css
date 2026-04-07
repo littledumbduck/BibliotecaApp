@@ -70,6 +70,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 30px;
 }
 
 #contenido-principal {
