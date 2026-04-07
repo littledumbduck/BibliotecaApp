@@ -1,9 +1,11 @@
 const main = document.querySelector('main');
 
+// Funcion para limpiar main
 function emptyMain() {
     main.innerHTML = '';
 }
 
+// Funciones de cambio de pestaña
 function mostrarInicio() {
     emptyMain();
     main.innerHTML = `
@@ -24,10 +26,6 @@ function mostrarCatalogo() {
         <section id="contenido-principal">
             Catálogo de Libros
         </section>`;
-}
-
-function alerta() {
-    alert("Funcionalidad en desarrollo");
 }
 
 async function renderizarRSS() {
@@ -72,3 +70,8 @@ const elementLogin = document.getElementById('login');
 elementInicio.addEventListener('click', mostrarInicio);
 elementCatalogo.addEventListener('click', mostrarCatalogo);
 
+// Función para pruebas
+
+function alerta() {
+    alert("Funcionalidad en desarrollo");
+}
