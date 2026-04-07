@@ -67,14 +67,14 @@ body {
 /* ==================== Contenido Principal ==================== */
 
 #app {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 #contenido-principal {
-  flex: 3;
-  min-width: 300px;
+    flex: 3;
+    min-width: 300px;
 }
 
 /* ==================== Sidebar RSS ==================== */
