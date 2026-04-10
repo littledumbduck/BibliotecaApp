@@ -7,9 +7,9 @@
             <!-- Cambio crítico: de 'catalogo/libro' a 'biblioteca/libro' -->
             <xsl:for-each select="biblioteca/libro[
                 contains(
-                    translate(titulo, 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÜ', 'abcdefghijklmnñopqrstuvwxyzáéíóúü'), 
+                    translate(titulo, 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÜ', 'abcdefghijklmnñopqrstuvwxyzáéíóúü'),
                     $query
-                ) and 
+                ) and
                 ($categoria = '' or categoria = $categoria)
             ]">
                 <div class="libro-card">
