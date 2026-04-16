@@ -53,18 +53,33 @@ function mostrarBuscador() {
     main.innerHTML = `
         <section id="contenido-principal">
             <h2>Buscador Avanzado</h2>
-            <div class="search-box">
-                <input type="text" id="inputBusqueda" placeholder="Escribe el título del libro...">
-                <select id="selectCategoria">
-                    <option value="">Todas las categorías</option>
-                    <option value="Ficción">Ficción</option>
-                    <option value="Programación">Programación</option>
-                    <option value="Historia">Historia</option>
-                    <option value="Ciencia">Ciencia</option>
-                    <option value="Filosofía">Filosofía</option>
-                </select>
-                <button id="btnEjecutarBusqueda">Buscar Libros</button>
-            </div>
+            <form id="formularioBusqueda">
+                <div class="search-box">
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" placeholder="Escribe el título del libro...">
+                    
+                    <label for="autor">Autor:</label>
+                    <input type="text" id="autor" name="autor" placeholder="Escribe el autor...">
+                    
+                    <label for="isbn">ISBN:</label>
+                    <input type="text" id="isbn" name="isbn" placeholder="Escribe el ISBN...">
+                    
+                    <label for="palabrasClave">Palabras clave:</label>
+                    <input type="text" id="palabrasClave" name="palabrasClave" placeholder="Escribe palabras clave...">
+                    
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="">Todas las categorías</option>
+                        <option value="Ficción">Ficción</option>
+                        <option value="Programación">Programación</option>
+                        <option value="Historia">Historia</option>
+                        <option value="Ciencia">Ciencia</option>
+                        <option value="Filosofía">Filosofía</option>
+                    </select>
+                    
+                    <button type="button" id="btnEjecutarBusqueda">Buscar Libros</button>
+                </div>
+            </form>
             <hr>
             <div id="contenedor-resultados">
                 <p>Ingresa un criterio para comenzar la búsqueda.</p>
@@ -72,13 +87,27 @@ function mostrarBuscador() {
         </section>`;
 
     document.getElementById('btnEjecutarBusqueda').addEventListener('click', realizarBusqueda);
+    document.getElementById('categoria').addEventListener('change', realizarBusqueda);
+    document.getElementById('palabrasClave').addEventListener('input', realizarBusqueda);
+    document.getElementById('titulo').addEventListener('input', realizarBusqueda);
+    document.getElementById('autor').addEventListener('input', realizarBusqueda);
+    document.getElementById('isbn').addEventListener('input', realizarBusqueda);
+
+    // Optional: allow search on enter in any input
+    const inputs = document.querySelectorAll('#formularioBusqueda input');
+    inputs.forEach(input => input.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') realizarBusqueda();
+    }));
 }
 
 // Función de Búsqueda Avanzada
 async function realizarBusqueda() {
     const contenedor = document.getElementById('contenedor-resultados');
-    const queryValue = document.getElementById('inputBusqueda').value.toLowerCase();
-    const categoriaValue = document.getElementById('selectCategoria').value;
+    const tituloValue = document.getElementById('titulo').value.toLowerCase();
+    const autorValue = document.getElementById('autor').value.toLowerCase();
+    const isbnValue = document.getElementById('isbn').value.toLowerCase();
+    const palabrasClaveValue = document.getElementById('palabrasClave').value.toLowerCase();
+    const categoriaValue = document.getElementById('categoria').value;
 
     contenedor.innerHTML = '<p>Buscando...</p>';
 
@@ -100,7 +129,10 @@ async function realizarBusqueda() {
         processor.importStylesheet(xslDoc);
 
         // Paso de parámetros al XSLT
-        processor.setParameter(null, "query", queryValue);
+        processor.setParameter(null, "titulo", tituloValue);
+        processor.setParameter(null, "autor", autorValue);
+        processor.setParameter(null, "isbn", isbnValue);
+        processor.setParameter(null, "palabrasClave", palabrasClaveValue);
         processor.setParameter(null, "categoria", categoriaValue);
 
         // Transformación

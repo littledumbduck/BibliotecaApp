@@ -13,7 +13,10 @@
     --light-bg: #ecf0f1;
     --dark-bg: #34495e;
     --white: #ffffff;
+    --font-color: #ffffff;
+    --inner-white: #000000;
     --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --gradient-box: linear-gradient(135deg, #34495e 0%, rgb(0, 25, 49) 100%);
 }
 
 body {
@@ -82,7 +85,7 @@ body {
 #sidebar-rss {
     flex: 1;
     min-width: 280px;
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    background: var(--gradient-box);
     padding: 20px;
     border-radius: 12px;
     box-shadow: var(--shadow);
@@ -92,7 +95,7 @@ body {
 }
 
 #sidebar-rss h3 {
-    color: var(--primary-color);
+    color: var(--white);
     margin-bottom: 20px;
     font-size: 1.2rem;
     font-weight: 600;
@@ -129,7 +132,7 @@ body {
 .noticia-rss {
     padding: 15px;
     margin-bottom: 15px;
-    background: var(--white);
+    background: var(--white); 
     border-radius: 8px;
     border-left: 4px solid var(--secondary-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -322,14 +325,14 @@ body {
 
 /* ==================== Contenido Principal ==================== */
 #contenido-principal h1 {
-    color: var(--primary-color);
+    color: var(--font-color);
     margin-bottom: 1rem;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 #contenido-principal h2 {
-    color: var(--primary-color);
+    color: var(--font-color);
     margin-bottom: 1.5rem;
     font-size: 2rem;
     font-weight: 600;
@@ -338,7 +341,7 @@ body {
 #contenido-principal p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: var(--text-color);
+    color: var(--inner-white);
 }
 
 /* ==================== Footer ==================== */
@@ -524,6 +527,7 @@ body {
         padding: 1.5rem;
         flex-direction: column;
         align-items: stretch;
+        background-color: var(--primary-color);
     }
 
     #inputBusqueda,

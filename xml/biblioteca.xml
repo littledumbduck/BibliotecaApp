@@ -5,6 +5,7 @@
     <autor>Gabriel García Márquez</autor>
     <isbn>978-8420471839</isbn>
     <categoria>Ficción</categoria>
+    <palabras_clave>realismo mágico, familia, soledad</palabras_clave>
     <anio_publicacion>1967</anio_publicacion>
     <editorial>Sudamericana</editorial>
     <stock>5</stock>
@@ -17,6 +18,7 @@
     <autor>Pedro Domingos</autor>
     <isbn>978-8411481234</isbn>
     <categoria>Programación</categoria>
+    <palabras_clave>machine learning, algoritmos, inteligencia artificial</palabras_clave>
     <anio_publicacion>2015</anio_publicacion>
     <editorial>Capitán Swing</editorial>
     <stock>3</stock>
@@ -29,6 +31,7 @@
     <autor>Yuval Noah Harari</autor>
     <isbn>978-8490606155</isbn>
     <categoria>Historia</categoria>
+    <palabras_clave>humanidad, evolución, historia</palabras_clave>
     <anio_publicacion>2011</anio_publicacion>
     <editorial>Debate</editorial>
     <stock>8</stock>
@@ -41,6 +44,7 @@
     <autor>Robert C. Martin</autor>
     <isbn>978-0132350884</isbn>
     <categoria>Programación</categoria>
+    <palabras_clave>código limpio, desarrollo ágil, software</palabras_clave>
     <anio_publicacion>2008</anio_publicacion>
     <editorial>Prentice Hall</editorial>
     <stock>2</stock>
