@@ -83,3 +83,5 @@ Mientras más pestañas iba creando, me di cuenta de que el index.js era demasia
 A falta de un servidor, se ha creado un sistema de autentificación de usuario que en principio no es funcional, ya que solamente sirve para poder ver el perfil de administrador que se muestra en la pestaña "perfil". Los usuarios que se creen no se guardarán en el archivo XML, sino en la caché del navegador, ya que para poder hacerlo funcional es necesario crear y desplegar un servidor backend para la aplicación, cosa que por el momento se escapa bastante de mis conocimientos.
 
 Gran parte del proyecto ha sido creado bajo mi esfuerzo, ya que todo lo que estaba a mi alcance lo he intentado escribir yo, aunque han habido funciones que se escapaban de mi experiencia que han sido generadas con Inteligencia Artificial. 
+
+---
