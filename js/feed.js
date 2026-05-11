@@ -2,8 +2,8 @@ async function renderizarRSS() {
     try {
         // 1. Descargar archivos
         const [xmlRes, xslRes] = await Promise.all([
-            fetch('../xml/feed.xml'),
-            fetch('../xsl/feed.xsl')
+            fetch('xml/feed.xml'),
+            fetch('xsl/feed.xsl')
         ]);
 
         const parser = new DOMParser();
@@ -27,6 +27,3 @@ async function renderizarRSS() {
         document.getElementById("contenedor-feed").innerHTML = "No se pudo cargar el feed.";
     }
 }
-
-// Llamar a la función cuando se cargue la página
-window.addEventListener('DOMContentLoaded', renderizarRSS);

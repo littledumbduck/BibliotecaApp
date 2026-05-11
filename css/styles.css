@@ -23,7 +23,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-color);
     line-height: 1.6;
-    background-color: var(--dark-bg);
+    min-height: 100vh;
+    background: radial-gradient(circle at top left, rgba(52, 152, 219, 0.18), transparent 25%),
+                radial-gradient(circle at bottom right, rgba(231, 76, 60, 0.14), transparent 20%),
+                var(--dark-bg);
 }
 
 /* ==================== Navegación ==================== */
@@ -72,13 +75,20 @@ body {
 #app {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
     padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #contenido-principal {
     flex: 3;
-    min-width: 300px;
+    min-width: 320px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 /* ==================== Sidebar RSS ==================== */
@@ -272,6 +282,52 @@ body {
     transform: translateY(0);
 }
 
+.auth-form {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    display: grid;
+    gap: 1rem;
+    max-width: 520px;
+}
+
+.auth-form label {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.auth-form input {
+    padding: 0.9rem 1rem;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.auth-form button {
+    padding: 0.9rem 1.5rem;
+    background: var(--secondary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.auth-form button:hover {
+    background: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.auth-mensaje {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    color: var(--accent-color);
+}
+
 /* ==================== Resultados de Búsqueda ==================== */
 #contenedor-resultados {
     margin-top: 2rem;
@@ -325,25 +381,289 @@ body {
 
 /* ==================== Contenido Principal ==================== */
 #contenido-principal h1 {
-    color: var(--font-color);
+    color: var(--primary-color);
     margin-bottom: 1rem;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 #contenido-principal h2 {
-    color: var(--font-color);
+    color: var(--primary-color);
     margin-bottom: 1.5rem;
     font-size: 2rem;
     font-weight: 600;
 }
 
 #contenido-principal p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: var(--inner-white);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-color);
 }
 
+.catalogo-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.estadisticas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.estadistica-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e9ecef;
+}
+
+.estadistica-card h3 {
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.estadistica-card p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.estadisticas-detalle {
+    margin-top: 1.5rem;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e9ecef;
+}
+
+.estadisticas-detalle h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.estadisticas-list {
+    display: block;
+    padding-left: 1rem;
+}
+
+.estadisticas-list ol {
+    list-style: decimal inside;
+    gap: 0.75rem;
+    display: grid;
+}
+
+.estadisticas-list ol li {
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+    background: #f8f9fb;
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.estadisticas-list ol li strong {
+    color: var(--secondary-color);
+}
+
+.estadisticas-categorias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.categoria-item {
+    background: #f8f9fb;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    border: 1px solid #e9ecef;
+}
+
+.categoria-item strong {
+    color: var(--primary-color);
+}
+
+.categoria-item span {
+    color: #4d4d4d;
+    font-weight: 600;
+}
+
+.catalogo-libro {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 1.5rem;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.catalogo-libro:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+}
+
+.catalogo-libro h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.catalogo-libro p {
+    margin: 0.45rem 0;
+    font-size: 0.95rem;
+    color: #4d4d4d;
+}
+
+.catalogo-libro p strong {
+    color: var(--primary-color);
+}
+
+.catalogo-libro p:last-child {
+    margin-top: 1rem;
+    color: #6c757d;
+    font-style: italic;
+}
+.resenas-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    background: #f5f8fb;
+    border-radius: 16px;
+    border: 1px solid #e9ecef;
+}
+
+.resenas-summary p {
+    margin: 0;
+    color: #374151;
+    font-weight: 600;
+}
+
+.resenas-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0.75rem;
+}
+
+#resenas-busqueda {
+    flex: 1;
+    min-width: 220px;
+    padding: 0.85rem 1rem;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#resenas-busqueda:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.1);
+}
+
+#btnBuscarResenas {
+    padding: 0.85rem 1.5rem;
+    border: none;
+    border-radius: 12px;
+    background: var(--secondary-color);
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+#btnBuscarResenas:hover {
+    background: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+.resenas-container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.resena-book {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e9ecef;
+}
+
+.resena-book-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.resena-book-header h3 {
+    margin: 0 0 0.25rem 0;
+    color: var(--secondary-color);
+}
+
+.resenas-count {
+    margin: 0.35rem 0 0;
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
+.resenas-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.resena-card {
+    background: #f8f9fb;
+    border-radius: 16px;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid #e2e8f0;
+}
+
+.resena-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.65rem;
+}
+
+.resena-usuario {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.rating-stars {
+    color: #f59e0b;
+    font-size: 0.95rem;
+}
+
+.resena-texto {
+    margin: 0;
+    color: #334155;
+    line-height: 1.6;
+}
+
+.resena-meta {
+    margin-top: 0.75rem;
+    color: #64748b;
+    font-size: 0.9rem;
+}
 /* ==================== Footer ==================== */
 .footer {
     background-color: var(--primary-color);
@@ -394,6 +714,37 @@ body {
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 1.2rem;
+}
+
+.profile-card {
+    background: var(--white);
+    padding: 1.8rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    max-width: 560px;
+    display: grid;
+    gap: 1rem;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+#btnCerrarSesionPerfil {
+    width: fit-content;
+    padding: 0.9rem 1.4rem;
+    background: var(--accent-color);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+#btnCerrarSesionPerfil:hover {
+    background: #c0392b;
 }
 
 .social-link:hover {

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resenas>
+  <libro id="1" titulo="Cien años de soledad" autor="Gabriel García Márquez">
+    <resena usuario="Ana" fecha="2026-03-05" rating="5">Una lectura mágica que lleva al lector por varias generaciones con una prosa inolvidable.</resena>
+    <resena usuario="Luis" fecha="2026-01-12" rating="5">El realismo mágico está en su mejor momento, muy recomendable.</resena>
+    <resena usuario="Marta" fecha="2026-02-20" rating="4">Un clásico hermoso, aunque fue un poco difícil al principio.</resena>
+  </libro>
+  <libro id="2" titulo="El algoritmo maestro" autor="Pedro Domingos">
+    <resena usuario="Jorge" fecha="2026-02-08" rating="4">Muy interesante, ofrece una visión clara del futuro del aprendizaje automático.</resena>
+    <resena usuario="Clara" fecha="2025-12-18" rating="5">Explica conceptos complejos con ejemplos simples y prácticos.</resena>
+    <resena usuario="Sofía" fecha="2026-01-25" rating="4">Muy recomendable para quienes quieren entender algoritmos de IA.</resena>
+  </libro>
+  <libro id="3" titulo="Sapiens: De animales a dioses" autor="Yuval Noah Harari">
+    <resena usuario="Diego" fecha="2025-11-30" rating="5">Una obra fascinante sobre la evolución humana y nuestra sociedad moderna.</resena>
+    <resena usuario="Elena" fecha="2026-04-02" rating="5">Me hizo pensar en muchas preguntas sobre la humanidad.</resena>
+    <resena usuario="Raúl" fecha="2026-03-15" rating="4">Excelente contenido, aunque a veces la narración es muy densa.</resena>
+  </libro>
+  <libro id="4" titulo="Clean Code" autor="Robert C. Martin">
+    <resena usuario="Patricia" fecha="2026-02-02" rating="5">Indispensable para cualquier desarrollador que quiera escribir código limpio.</resena>
+    <resena usuario="Andrés" fecha="2026-03-12" rating="5">Un manual práctico con muchos ejemplos útiles.</resena>
+    <resena usuario="Nuria" fecha="2026-01-06" rating="4">Muy bueno, aunque algunos ejemplos están algo desactualizados.</resena>
+  </libro>
+  <libro id="5" titulo="1984" autor="George Orwell">
+    <resena usuario="Lucía" fecha="2026-03-19" rating="5">Una novela inquietante que sigue siendo relevante hoy en día.</resena>
+    <resena usuario="Mario" fecha="2025-12-29" rating="5">La atmósfera distópica es brutal y memorable.</resena>
+    <resena usuario="Patxi" fecha="2026-04-01" rating="4">Ideal para reflexionar sobre vigilancia y poder.</resena>
+  </libro>
+  <libro id="6" titulo="El Quijote" autor="Miguel de Cervantes">
+    <resena usuario="Ángela" fecha="2025-12-12" rating="5">Una aventura clásica llena de humor y profundidad.</resena>
+    <resena usuario="Javier" fecha="2026-02-22" rating="5">Es difícil, pero cada capítulo vale la pena.</resena>
+    <resena usuario="Sonia" fecha="2026-03-10" rating="4">Me encantó el carácter de Don Quijote y Sancho.</resena>
+  </libro>
+  <libro id="7" titulo="Crónica de una muerte anunciada" autor="Gabriel García Márquez">
+    <resena usuario="Marcos" fecha="2026-01-18" rating="5">La tensión narrativa es impecable y la historia es estremecedora.</resena>
+    <resena usuario="Carla" fecha="2025-11-22" rating="4">Un cuento corto pero muy poderoso.</resena>
+    <resena usuario="Pablo" fecha="2026-03-21" rating="4">Un misterio contado de manera singular y efectiva.</resena>
+  </libro>
+  <libro id="8" titulo="Fahrenheit 451" autor="Ray Bradbury">
+    <resena usuario="Lorena" fecha="2026-04-05" rating="5">Una obra que te hace valorar la lectura y el pensamiento libre.</resena>
+    <resena usuario="Iván" fecha="2026-02-16" rating="5">Muy buena novela distópica con un mensaje fuerte.</resena>
+    <resena usuario="Mónica" fecha="2026-01-10" rating="4">Impactante y fácil de leer.</resena>
+  </libro>
+  <libro id="9" titulo="Un mundo feliz" autor="Aldous Huxley">
+    <resena usuario="Teresa" fecha="2026-03-28" rating="5">Una distopía que da miedo de lo real que se siente.</resena>
+    <resena usuario="Óscar" fecha="2025-12-05" rating="4">Muy bien construida y con ideas provocadoras.</resena>
+    <resena usuario="Daniela" fecha="2026-01-20" rating="4">Un clásico que merece ser leído con calma.</resena>
+  </libro>
+  <libro id="10" titulo="La sombra del viento" autor="Carlos Ruiz Zafón">
+    <resena usuario="Raquel" fecha="2026-02-25" rating="5">La trama está llena de misterio y nostalgia literaria.</resena>
+    <resena usuario="Óliver" fecha="2026-03-08" rating="5">Una novela muy adictiva y bien escrita.</resena>
+    <resena usuario="Alicia" fecha="2026-04-07" rating="4">Me atrapó desde la primera página.</resena>
+  </libro>
+  <libro id="11" titulo="El Hobbit" autor="J.R.R. Tolkien">
+    <resena usuario="Ramón" fecha="2026-01-03" rating="5">Una aventura fantástica que recomiendo para todos.</resena>
+    <resena usuario="Beatriz" fecha="2026-02-11" rating="5">El inicio perfecto para entrar al mundo de la Tierra Media.</resena>
+    <resena usuario="Noelia" fecha="2026-03-03" rating="4">Divertida y con personajes entrañables.</resena>
+  </libro>
+  <libro id="12" titulo="Rayuela" autor="Julio Cortázar">
+    <resena usuario="Diego" fecha="2026-03-17" rating="5">Un viaje experimental e inolvidable.</resena>
+    <resena usuario="Carolina" fecha="2025-12-21" rating="4">No es fácil, pero recompensa con creces.</resena>
+    <resena usuario="Gonzalo" fecha="2026-02-06" rating="4">Original y muy expresiva.</resena>
+  </libro>
+  <libro id="13" titulo="Ensayo sobre la ceguera" autor="José Saramago">
+    <resena usuario="Elena" fecha="2026-01-29" rating="5">Una metáfora potente sobre la sociedad y la humanidad.</resena>
+    <resena usuario="Mario" fecha="2026-02-18" rating="4">Impactante y con una narrativa singular.</resena>
+    <resena usuario="Verónica" fecha="2026-04-09" rating="4">Perturbador y profundo.</resena>
+  </libro>
+  <libro id="14" titulo="La casa de los espíritus" autor="Isabel Allende">
+    <resena usuario="Claudia" fecha="2026-02-27" rating="5">Una saga familiar apasionante y llena de realismo mágico.</resena>
+    <resena usuario="Eduardo" fecha="2026-03-11" rating="4">Me gustó mucho la ambientación y los personajes.</resena>
+    <resena usuario="Paulina" fecha="2026-01-22" rating="4">Una historia emotiva y bien contada.</resena>
+  </libro>
+  <libro id="15" titulo="Pedro Páramo" autor="Juan Rulfo">
+    <resena usuario="Natalia" fecha="2026-03-24" rating="5">Breve pero estremecedor, uno de los grandes referentes de la literatura.</resena>
+    <resena usuario="Raúl" fecha="2026-02-10" rating="4">Favorece la reflexión y la atmósfera es intensa.</resena>
+    <resena usuario="Clara" fecha="2026-04-04" rating="4">Un texto único y sorprendente.</resena>
+  </libro>
+  <libro id="16" titulo="JavaScript: The Good Parts" autor="Douglas Crockford">
+    <resena usuario="Iván" fecha="2026-01-09" rating="5">Un clásico imprescindible para entender JavaScript en profundidad.</resena>
+    <resena usuario="Sonia" fecha="2026-03-02" rating="4">Muy buen libro, pero requiere paciencia y práctica.</resena>
+    <resena usuario="Carlos" fecha="2026-02-23" rating="4">Ideal para mejorar el estilo en JS.</resena>
+  </libro>
+  <libro id="17" titulo="The Pragmatic Programmer" autor="Andrew Hunt">
+    <resena usuario="María" fecha="2026-03-14" rating="5">Consejos muy sólidos para cualquier programador serio.</resena>
+    <resena usuario="Federico" fecha="2026-02-07" rating="5">Me ayudó a mejorar mi forma de trabajar en proyectos de software.</resena>
+    <resena usuario="Elisa" fecha="2026-04-08" rating="4">Un referente en buenas prácticas con ejemplos claros.</resena>
+  </libro>
+  <libro id="18" titulo="Design Patterns" autor="Erich Gamma">
+    <resena usuario="Tomás" fecha="2026-01-26" rating="5">Una guía esencial para arquitecturas de software más limpias.</resena>
+    <resena usuario="Bea" fecha="2026-02-28" rating="4">Complejo, pero muy valioso para desarrolladores avanzados.</resena>
+    <resena usuario="Raquel" fecha="2026-03-23" rating="4">Excelente referencia para patrones de diseño.</resena>
+  </libro>
+  <libro id="19" titulo="Eloquence JavaScript" autor="Marijn Haverbeke">
+    <resena usuario="Iván" fecha="2026-01-31" rating="4">Buena guía para principiantes con ejemplos interactivos.</resena>
+    <resena usuario="Julia" fecha="2026-03-05" rating="4">Divertido y práctico para aprender JS moderno.</resena>
+    <resena usuario="Óscar" fecha="2026-04-03" rating="4">Muy didáctico, aunque a veces se enfoca en detalles técnicos.</resena>
+  </libro>
+  <libro id="20" titulo="Introduction to Algorithms" autor="Thomas H. Cormen">
+    <resena usuario="Sandra" fecha="2026-02-14" rating="5">La biblia de los algoritmos, ideal para estudio serio.</resena>
+    <resena usuario="Miguel" fecha="2026-03-16" rating="5">Completo y riguroso, aunque muy denso.</resena>
+    <resena usuario="Carmen" fecha="2026-04-06" rating="4">Excelente documentación, pero requiere tiempo para absorberla.</resena>
+  </libro>
+  <libro id="21" titulo="Python Crash Course" autor="Eric Matthes">
+    <resena usuario="Sofía" fecha="2026-01-28" rating="5">Perfecto para empezar con Python de forma práctica.</resena>
+    <resena usuario="Raúl" fecha="2026-02-24" rating="4">Muy claro y bien estructurado.</resena>
+    <resena usuario="Ariadna" fecha="2026-03-13" rating="4">Buen libro para principiantes con muchos ejercicios.</resena>
+  </libro>
+  <libro id="22" titulo="Cracking the Coding Interview" autor="Gayle Laakmann McDowell">
+    <resena usuario="Lucas" fecha="2026-02-05" rating="5">Imprescindible para prepararse para entrevistas técnicas.</resena>
+    <resena usuario="María" fecha="2026-04-01" rating="5">Muy práctico y con preguntas reales de entrevistas.</resena>
+    <resena usuario="Teresa" fecha="2026-03-07" rating="4">Excelente material y muy desafiante.</resena>
+  </libro>
+  <libro id="23" titulo="Don't Make Me Think" autor="Steve Krug">
+    <resena usuario="Hugo" fecha="2026-01-20" rating="5">Lectura obligada para diseñadores y desarrolladores de interfaces.</resena>
+    <resena usuario="Natalia" fecha="2026-02-27" rating="4">Muy útil para entender la usabilidad web.</resena>
+    <resena usuario="Daniel" fecha="2026-04-02" rating="4">Claros ejemplos y consejos prácticos.</resena>
+  </libro>
+  <libro id="24" titulo="Refactoring" autor="Martin Fowler">
+    <resena usuario="Paula" fecha="2026-03-22" rating="5">Gran libro para aprender a mejorar y mantener código.</resena>
+    <resena usuario="Ignacio" fecha="2026-01-14" rating="4">Un clásico para desarrolladores que quieren código limpio.</resena>
+    <resena usuario="Verónica" fecha="2026-02-19" rating="4">Muy útil para trabajar en proyectos grandes.</resena>
+  </libro>
+  <libro id="25" titulo="The Mythical Man-Month" autor="Frederick Brooks">
+    <resena usuario="Jaime" fecha="2026-01-06" rating="5">Reflexiones muy acertadas sobre la gestión de proyectos.</resena>
+    <resena usuario="Irene" fecha="2026-02-12" rating="4">Tiempo después sigue siendo un libro valioso.</resena>
+    <resena usuario="David" fecha="2026-03-09" rating="4">Lecciones útiles para equipos de desarrollo.</resena>
+  </libro>
+  <libro id="26" titulo="Guns, Germs, and Steel" autor="Jared Diamond">
+    <resena usuario="Alicia" fecha="2026-03-18" rating="5">Excelente análisis de la historia humana desde una mirada global.</resena>
+    <resena usuario="Héctor" fecha="2026-01-17" rating="4">Muy interesante y bien documentado.</resena>
+    <resena usuario="Lorena" fecha="2026-02-01" rating="4">Te hace entender por qué las sociedades tomaron ciertos caminos.</resena>
+  </libro>
+  <libro id="27" titulo="The Silk Roads" autor="Peter Frankopan">
+    <resena usuario="Natasha" fecha="2026-03-01" rating="4">Una visión muy atractiva de la historia conectada del mundo.</resena>
+    <resena usuario="Roberto" fecha="2026-01-24" rating="4">Abre la mente sobre la importancia de estas rutas comerciales.</resena>
+    <resena usuario="Elisa" fecha="2026-02-29" rating="4">Un texto esclarecedor y bien escrito.</resena>
+  </libro>
+  <libro id="28" titulo="Postguerra" autor="Tony Judt">
+    <resena usuario="Marta" fecha="2026-02-23" rating="5">Una obra magistral sobre la Europa de la posguerra.</resena>
+    <resena usuario="Óliver" fecha="2026-03-26" rating="4">Muy detallado y completo.</resena>
+    <resena usuario="Raquel" fecha="2026-04-09" rating="4">Necesita paciencia, pero es muy valioso.</resena>
+  </libro>
+  <libro id="29" titulo="SPQR: Una historia de la antigua Roma" autor="Mary Beard">
+    <resena usuario="Pablo" fecha="2026-01-11" rating="5">Una historia fascinante de Roma contada con mucho talento.</resena>
+    <resena usuario="Ivana" fecha="2026-03-04" rating="4">Perfecto para interesados en historia clásica.</resena>
+    <resena usuario="Javier" fecha="2026-02-27" rating="4">Muy recomendable y ameno.</resena>
+  </libro>
+  <libro id="30" titulo="Civilización" autor="Niall Ferguson">
+    <resena usuario="Daniela" fecha="2026-02-14" rating="4">Un enfoque original sobre cómo las civilizaciones crecieron.</resena>
+    <resena usuario="Alberto" fecha="2026-04-05" rating="4">Bien documentado y estimulante.</resena>
+    <resena usuario="Carmen" fecha="2026-03-11" rating="4">Ideal para comprender la historia moderna.</resena>
+  </libro>
+  <libro id="31" titulo="El mundo de ayer" autor="Stefan Zweig">
+    <resena usuario="Susana" fecha="2026-02-08" rating="5">Un testimonio precioso de la Europa anterior a la guerra.</resena>
+    <resena usuario="Rubén" fecha="2026-03-19" rating="4">Muy lírico y emotivo.</resena>
+    <resena usuario="Mireia" fecha="2026-04-04" rating="4">Excelente si te gusta la memoria histórica.</resena>
+  </libro>
+  <libro id="32" titulo="La II Guerra Mundial" autor="Antony Beevor">
+    <resena usuario="Oscar" fecha="2026-01-15" rating="5">Un libro impresionante sobre un periodo decisivo del siglo XX.</resena>
+    <resena usuario="Laura" fecha="2026-02-20" rating="4">Muy bien escrito y contundente.</resena>
+    <resena usuario="Cristina" fecha="2026-03-30" rating="4">Es difícil de soltar y muy completo.</resena>
+  </libro>
+  <libro id="33" titulo="Homenaje a Cataluña" autor="George Orwell">
+    <resena usuario="Nerea" fecha="2026-02-03" rating="5">Una narración poderosa y personal de la guerra civil española.</resena>
+    <resena usuario="Luis" fecha="2026-03-16" rating="4">Muy emotivo y descriptivo.</resena>
+    <resena usuario="Berta" fecha="2026-04-02" rating="4">Excelente testimonio histórico.</resena>
+  </libro>
+  <libro id="34" titulo="Banderas Negras" autor="Joby Warrick">
+    <resena usuario="Francisco" fecha="2026-01-26" rating="4">Intrigante historia sobre yihadismo moderno.</resena>
+    <resena usuario="Patricia" fecha="2026-03-09" rating="4">Muy documentado y revelador.</resena>
+    <resena usuario="Miguel" fecha="2026-04-08" rating="4">Interesante y bien narrado.</resena>
+  </libro>
+  <libro id="35" titulo="Leningrado" autor="Anna Reid">
+    <resena usuario="Lorena" fecha="2026-02-12" rating="4">Un relato emocionante sobre el asedio de Leningrado.</resena>
+    <resena usuario="Jesús" fecha="2026-03-28" rating="4">Muy bien investigado y conmovedor.</resena>
+    <resena usuario="Verónica" fecha="2026-01-31" rating="4">Una historia humana dentro de la guerra.</resena>
+  </libro>
+  <libro id="36" titulo="Breve historia del tiempo" autor="Stephen Hawking">
+    <resena usuario="David" fecha="2026-02-18" rating="5">Un libro genial para acercarse a la física moderna.</resena>
+    <resena usuario="Sandra" fecha="2026-03-25" rating="4">Muy claro para ser ciencia compleja.</resena>
+    <resena usuario="Clara" fecha="2026-04-06" rating="4">Inspirador y accesible.</resena>
+  </libro>
+  <libro id="37" titulo="Cosmos" autor="Carl Sagan">
+    <resena usuario="Alejandro" fecha="2026-01-13" rating="5">Hermoso homenaje al universo y al conocimiento científico.</resena>
+    <resena usuario="Noelia" fecha="2026-02-26" rating="5">Una lectura que hace sentir asombro por el espacio.</resena>
+    <resena usuario="Raúl" fecha="2026-04-07" rating="4">Muy inspirador y ameno.</resena>
+  </libro>
+  <libro id="38" titulo="El gen egoísta" autor="Richard Dawkins">
+    <resena usuario="Irene" fecha="2026-03-01" rating="4">Una teoría innovadora que cambia la forma de ver la evolución.</resena>
+    <resena usuario="Miguel" fecha="2026-01-21" rating="4">Provocador y bien argumentado.</resena>
+    <resena usuario="Julia" fecha="2026-02-11" rating="4">Muy interesante aunque algo denso.</resena>
+  </libro>
+  <libro id="39" titulo="La sexta extinción" autor="Elizabeth Kolbert">
+    <resena usuario="Óscar" fecha="2026-03-14" rating="5">Una exposición clara y preocupante sobre la crisis ambiental.</resena>
+    <resena usuario="Marta" fecha="2026-02-01" rating="4">Impactante y necesario.</resena>
+    <resena usuario="Patxi" fecha="2026-04-01" rating="4">Muy bien documentado y fácil de seguir.</resena>
+  </libro>
+  <libro id="40" titulo="Astrophysics for People in a Hurry" autor="Neil deGrasse Tyson">
+    <resena usuario="Sonia" fecha="2026-01-08" rating="5">Explica el universo de forma clara y entretenida.</resena>
+    <resena usuario="Ramón" fecha="2026-03-06" rating="4">Perfecto para quien quiere una introducción rápida.</resena>
+    <resena usuario="Olga" fecha="2026-02-24" rating="4">Ligero y educativo.</resena>
+  </libro>
+  <libro id="41" titulo="El emperador de todos los males" autor="Siddhartha Mukherjee">
+    <resena usuario="Carmen" fecha="2026-01-18" rating="5">Una biografía del cáncer contada con humanidad y rigor.</resena>
+    <resena usuario="Jorge" fecha="2026-03-27" rating="4">Profundo y muy bien documentado.</resena>
+    <resena usuario="Lina" fecha="2026-02-14" rating="4">Impactante y educativo.</resena>
+  </libro>
+  <libro id="42" titulo="El origen de las especies" autor="Charles Darwin">
+    <resena usuario="Daniel" fecha="2026-03-10" rating="5">El texto fundacional de la teoría evolutiva, imprescindible.</resena>
+    <resena usuario="Silvia" fecha="2026-01-27" rating="4">Denso, pero vale la pena leerlo.</resena>
+    <resena usuario="Francisco" fecha="2026-02-18" rating="4">Muy interesante y fundamental.</resena>
+  </libro>
+  <libro id="43" titulo="¿Qué es la vida?" autor="Erwin Schrödinger">
+    <resena usuario="Lola" fecha="2026-02-03" rating="4">Un libro clásico que explora la biología desde la física.</resena>
+    <resena usuario="Fernando" fecha="2026-03-23" rating="4">Muy original y reflexivo.</resena>
+    <resena usuario="Clara" fecha="2026-04-09" rating="4">Recomendado para curiosos científicos.</resena>
+  </libro>
+  <libro id="44" titulo="La doble hélice" autor="James Watson">
+    <resena usuario="Natalia" fecha="2026-01-19" rating="5">Una historia fascinante de uno de los mayores descubrimientos científicos.</resena>
+    <resena usuario="Javier" fecha="2026-03-29" rating="4">Muy entretenido y revelador.</resena>
+    <resena usuario="Patricia" fecha="2026-02-25" rating="4">Perfecto para conocer los orígenes de la genética moderna.</resena>
+  </libro>
+  <libro id="45" titulo="El sistema del mundo" autor="Isaac Newton">
+    <resena usuario="Alba" fecha="2026-03-02" rating="4">Interesante lectura sobre la vida de Newton y sus descubrimientos.</resena>
+    <resena usuario="Rubén" fecha="2026-01-13" rating="4">Un buen repaso histórico y científico.</resena>
+    <resena usuario="Mónica" fecha="2026-04-04" rating="4">Valioso para entender a un genio de la ciencia.</resena>
+  </libro>
+  <libro id="46" titulo="Así habló Zaratustra" autor="Friedrich Nietzsche">
+    <resena usuario="Rosa" fecha="2026-01-21" rating="5">Profundo y desafiante, un texto que invita a reflexionar.</resena>
+    <resena usuario="Diego" fecha="2026-03-20" rating="4">Difícil, pero muy potente.</resena>
+    <resena usuario="Nuria" fecha="2026-02-09" rating="4">Vale la pena por sus ideas filosóficas.</resena>
+  </libro>
+  <libro id="47" titulo="Meditaciones" autor="Marco Aurelio">
+    <resena usuario="Celia" fecha="2026-03-03" rating="5">Un libro lleno de sabiduría práctica para la vida diaria.</resena>
+    <resena usuario="Miguel" fecha="2026-02-01" rating="4">Muy inspirador y atemporal.</resena>
+    <resena usuario="Laura" fecha="2026-04-05" rating="4">Excelente como guía de reflexión personal.</resena>
+  </libro>
+  <libro id="48" titulo="La República" autor="Platón">
+    <resena usuario="Sara" fecha="2026-01-23" rating="4">Una obra fundamental de la filosofía política.</resena>
+    <resena usuario="José" fecha="2026-03-13" rating="4">Recomendada para quienes quieren entender ideas clásicas sobre justicia.</resena>
+    <resena usuario="Marta" fecha="2026-04-01" rating="4">Densa, pero muy profunda.</resena>
+  </libro>
+  <libro id="49" titulo="Ética para Amador" autor="Fernando Savater">
+    <resena usuario="Raúl" fecha="2026-02-06" rating="5">Una excelente introducción a la ética con lenguaje cercano.</resena>
+    <resena usuario="Ana" fecha="2026-03-24" rating="5">Muy recomendable para jóvenes y adultos.</resena>
+    <resena usuario="Ignacio" fecha="2026-04-07" rating="4">Claro y entretenido.</resena>
+  </libro>
+  <libro id="50" titulo="El mito de Sísifo" autor="Albert Camus">
+    <resena usuario="Paula" fecha="2026-01-15" rating="5">Reflexión profunda sobre el absurdo y la condición humana.</resena>
+    <resena usuario="Jorge" fecha="2026-02-18" rating="4">Muy potente y filosófica.</resena>
+    <resena usuario="Teresa" fecha="2026-03-18" rating="4">Una lectura intensa y valiosa.</resena>
+  </libro>
+</resenas>
