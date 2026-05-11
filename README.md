@@ -8,29 +8,30 @@
 
 [cite_start]Esta es la jerarquía completa de archivos que componen la aplicación: [cite: 1]
 
+```text
 BibliotecaApp/
-[cite_start]├── index.html              # Punto de entrada y contenedor principal [cite: 172]
+├── index.html              # Punto de entrada y contenedor principal [cite: 1, 172]
 ├── css/
-[cite_start]│   └── styles.css          # Estilos globales y diseño responsivo [cite: 166]
+│   └── styles.css          # Estilos globales y diseño responsivo [cite: 1, 166]
 ├── js/
-[cite_start]│   ├── index.js            # Inicialización y gestión de carga de datos [cite: 186]
-[cite_start]│   ├── auth.js             # Sistema de autenticación y seguridad de acceso [cite: 173]
-[cite_start]│   ├── catalogo.js         # Lógica de visualización y manejo del catálogo [cite: 176]
-[cite_start]│   ├── usuarios.js         # Administración de perfiles de usuario [cite: 110]
-[cite_start]│   ├── resenas.js          # Control de comentarios y valoraciones [cite: 187]
-[cite_start]│   ├── estadisticas.js     # Procesamiento de métricas y datos del sistema [cite: 180]
-[cite_start]│   ├── home.js             # Controladores específicos de la página de inicio [cite: 185]
-[cite_start]│   ├── search.js           # Motor de búsqueda y filtrado de recursos [cite: 190]
-[cite_start]│   └── feed.js             # Gestión de novedades y noticias dinámicas [cite: 183]
+│   ├── index.js            # Inicialización y gestión de carga de datos [cite: 1, 186]
+│   ├── auth.js             # Sistema de autenticación y seguridad de acceso [cite: 173]
+│   ├── catalogo.js         # Lógica de visualización y manejo del catálogo [cite: 176]
+│   ├── usuarios.js         # Administración de perfiles de usuario [cite: 110]
+│   ├── resenas.js          # Control de comentarios y valoraciones [cite: 1, 187]
+│   ├── estadisticas.js     # Procesamiento de métricas y datos del sistema 
+│   ├── home.js             # Controladores específicos de la página de inicio [cite: 1, 185]
+│   ├── search.js           # Motor de búsqueda y filtrado de recursos [cite: 190]
+│   └── feed.js             # Gestión de novedades y noticias dinámicas [cite: 1, 183]
 ├── xml/
-[cite_start]│   ├── biblioteca.xml      # Base de datos local de libros [cite: 193]
-[cite_start]│   ├── usuarios.xml        # Almacén de usuarios registrados (credenciales) [cite: 212]
-[cite_start]│   ├── resenas.xml         # Histórico de feedback de la comunidad [cite: 200]
-[cite_start]│   └── feed.xml            # Datos de noticias y actualizaciones [cite: 199]
+│   ├── biblioteca.xml      # Base de datos local de libros 
+│   ├── usuarios.xml        # Almacén de usuarios registrados (credenciales) [cite: 212]
+│   ├── resenas.xml         # Histórico de feedback de la comunidad [cite: 200]
+│   └── feed.xml            # Datos de noticias y actualizaciones [cite: 1, 199]
 └── xsl/
-    ├── biblioteca.xsl      # Transformación para renderizar el catálogo [cite: 212]
-    ├── busquedaavanzada.xsl # Interfaz personalizada para resultados de búsqueda [cite: 213]
-    └── feed.xsl            # Formato de visualización para el feed de noticias [cite: 215]
+    ├── biblioteca.xsl      # Transformación para renderizar el catálogo 
+    ├── busquedaavanzada.xsl # Interfaz personalizada para resultados de búsqueda [cite: 1, 213]
+    └── feed.xsl            # Formato de visualización para el feed de noticias [cite: 1, 215]```
 
 ---
 
